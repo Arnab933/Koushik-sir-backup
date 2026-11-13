@@ -1,0 +1,8 @@
+TextWindow.WriteLine( "Enter a number to check number is Even or Odd")
+num=TextWindow.ReadNumber()
+rem=Math.Remainder(num,2)
+If (rem=0) Then
+  TextWindow.WriteLine( num+" is an Even number ")
+else
+   TextWindow.WriteLine( num+" is an Odd number")
+  endif

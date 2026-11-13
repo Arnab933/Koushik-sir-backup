@@ -1,0 +1,12 @@
+TextWindow.WriteLine( "Enter first name ")
+n1=TextWindow.ReadNumber()
+TextWindow.WriteLine( "Enter first name ")
+n2=TextWindow.ReadNumber()
+sum=n1+n2
+dif=n1-n2
+mul=n1*n2
+div=n1/n2
+TextWindow.WriteLine( "Addition of"+n1+" and "+n2+" is ="+sum)
+TextWindow.WriteLine( "Subtruction  of"+n1+" and "+n2+" is ="+dif)
+TextWindow.WriteLine( "Multiplication of"+n1+" and "+n2+" is ="+mul)
+TextWindow.WriteLine( "Division of"+n1+" and "+n2+" is ="+div)

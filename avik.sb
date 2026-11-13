@@ -1,0 +1,3 @@
+TextWindow.WriteLine( "Enter your name: ")
+Name=TextWindow.Read()
+TextWindow.WriteLine( " My name is " + Name)

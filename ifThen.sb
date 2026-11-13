@@ -1,0 +1,10 @@
+TextWindow.WriteLine( "Enter obtained  marks of Bengali out of 100 ")
+beng=TextWindow.ReadNumber()
+TextWindow.WriteLine( "Enter obtained  marks of English out of 100 ")
+eng=TextWindow.ReadNumber()
+If (beng>eng) Then
+  TextWindow.WriteLine( " You got maximum in Bengali")
+endif
+  If (eng>beng) Then
+  TextWindow.WriteLine( " You got maximum in English")
+  endif

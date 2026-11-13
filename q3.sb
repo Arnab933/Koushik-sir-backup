@@ -1,0 +1,9 @@
+TextWindow.WriteLine( "Enter Purchase Amount")
+pamount=TextWindow.ReadNumber()
+If (pamount>10000) Then
+  disc=pamount*10/100
+  netpay=pamount-disc  
+  TextWindow.WriteLine( " Your dicount is "+disc+"and your payable amount is "+netpay)
+else
+   TextWindow.WriteLine( "You are not elegible for discount and your payable amount is "+pamount)
+  endif

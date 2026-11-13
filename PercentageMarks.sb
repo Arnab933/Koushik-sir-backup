@@ -1,0 +1,11 @@
+TextWindow.WriteLine( "Enter obtained  marks of Bengali out of 100 ")
+beng=TextWindow.ReadNumber()
+TextWindow.WriteLine( "Enter obtained  marks of English out of 100 ")
+eng=TextWindow.ReadNumber()
+TextWindow.WriteLine( "Enter obtained  marks of Mathematics out of 100 ")
+math=TextWindow.ReadNumber()
+TotalMarks=beng+eng+math
+PerMarks=TotalMarks/300*100
+
+
+TextWindow.WriteLine( " Total marks is  "+TotalMarks+ " and Percentage of marks is = " + PerMarks)
